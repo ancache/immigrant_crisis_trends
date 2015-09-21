@@ -38,7 +38,8 @@ def repeat_search(reddit):
 		else:
 			print("Done for " + utils.pprint_unix_time(timestamp) + 
 				". Found {} posts.".format(len(l)))
-			timestamp = timestamp + INTERVAL				
+			timestamp = timestamp + INTERVAL
+		print("     Timestamp is now {}.".format(timestamp))					
 
 		time.sleep(WAIT)
 
