@@ -2,9 +2,7 @@
 
 *An analysis of how the European refugee crisis is trending on Reddit*
 
-*Data collection (with PRAW) and analysis (with Pandas) by [Anca Chereches](conf.ling.cornell.edu/ancache)*
-
-*Data visualization (with D3) by Natalia Chetelat*
+*-- data collection (with PRAW) and analysis (with pandas) by [Anca Chereches](conf.ling.cornell.edu/ancache); data visualization (with D3) by Natalia Chetelat --*
 
 We're trying to understand public interest and public opinion in the European migrant crisis by analyzing Reddit activity on relevant subreddits. For now, we're focusing on [/r/europe](https://www.reddit.com/r/europe), but we hope to add other relevant subreddits to the analysis later.
 
