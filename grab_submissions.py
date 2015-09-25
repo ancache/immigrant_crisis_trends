@@ -5,10 +5,13 @@ import ipdb
 import sys
 
 USER_AGENT = "MacOS: Refugee crisis-related activity monitor by /u/lapropriu:v1.0"
-START_TIME = 1420070400  # Jan. 1st 2015, 00:00:00 GMT
+
+# --> note: submission timestamps are actually in GMT-8
+START_TIME = 1420099200  # Jan. 1st 2015, 08:00:00 GMT 
 #START_TIME = 1439424000 # Thu, 13 Aug 2015 00:00:00 GMT --> for TESTING purposes
-END_TIME = 1442102400 # Sept. 13th 2015, 00:00:00 GMT
+END_TIME = 1442131200 # Sept. 13th 2015, 08:00:00 GMT
 INTERVAL = 259200 # 3 days
+
 WAIT = 20 # for building in a delay between Reddit API requests (max is 30/min)
 MAX_POSTS = 1000 # maximum number of posts Reddit will return in a search
 
